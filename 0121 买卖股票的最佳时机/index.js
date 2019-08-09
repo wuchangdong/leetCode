@@ -3,6 +3,11 @@
  * @author wuchangdong
  */
 
+ /**
+ * @param {number[]} prices
+ * @return {number}
+ */
+
 var maxProfit = function (prices) {
     if (prices <= 1) {
         return 0;
