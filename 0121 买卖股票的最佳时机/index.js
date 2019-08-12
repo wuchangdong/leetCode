@@ -9,7 +9,7 @@
  */
 
 var maxProfit = function (prices) {
-    if (prices <= 1) {
+    if (prices.length <= 1) {
         return 0;
     }
     let min = prices[0];
