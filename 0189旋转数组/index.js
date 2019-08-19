@@ -1,5 +1,5 @@
 /**
- * @file factorial-trailing-zeroes
+ * @file rotate-array
  * @author wuchangdong
  */
 
