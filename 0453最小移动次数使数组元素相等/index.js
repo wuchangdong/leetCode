@@ -22,15 +22,7 @@ var minMoves = function (nums) {
 
 // 动态规划
 var minMoves = function (nums) {
-    nums = nums.sort((a, b) => {
-        if (a < b) {
-            return -1;
-        }
-        else if (a > b) {
-            return 1;
-        }
-        return 0;
-    });
+    nums = nums.sort((a, b) => a - b);
 
     let moves = 0;
     for (let i = 1; i < nums.length; i++) {
